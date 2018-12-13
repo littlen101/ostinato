@@ -1,6 +1,10 @@
-# Author: Kyle Ruiz,
-#kruiz2015@my.fit.edu
-#stp class
+# Author: Kyle Ruiz, kruiz2015@my.fit.edu
+# Stp class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/stp_pb2.proto
+
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_stp.html
 
 class Stp:
 	def __int__(self, protocol_id = 0, protocol_version_id = 0, bpdu_type = 0, flags = 0, root_id = 0, root_path_cost = 0, bridge_id = 0, port_id = 0, message_age = 0, max_age = 0, hello_time = 0, forward_delay = 0):

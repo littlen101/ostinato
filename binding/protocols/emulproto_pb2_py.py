@@ -1,4 +1,5 @@
 # Author: Xuchao Jiang, xjiang2017@my.fit.edu
+# ArpEntry, Device, DeviceNeighborList, Ip4Emulation, Ip6Address, Ip6Emulation, NdpEntry, MacEmulation, Vlan, VlanEmulation class
 # emulproto_pb2.py
 # Shortened as 'emul'
 # API guide: https://apiguide.ostinato.org/module_emul.html

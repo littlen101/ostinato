@@ -1,6 +1,10 @@
-# Author: Kyle Ruiz,
-#kruiz2015@my.fit.edu
-#mac
+# Author: Kyle Ruiz, kruiz2015@my.fit.edu
+# Mac class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/mac.proto
+
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_mac.html
 
 class Mac:
 	#MacAddrMode

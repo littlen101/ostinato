@@ -1,10 +1,10 @@
-#Author: Alex Winstead, awinstead2015@my.fit.edu
-#Eth2 class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/eth2.proto
+# Author: Alex Winstead, awinstead2015@my.fit.edu
+# Eth2 class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/eth2.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_eth2.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_eth2.html
 
 
 class Eth2:

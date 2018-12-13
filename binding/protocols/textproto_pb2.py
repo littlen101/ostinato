@@ -1,6 +1,10 @@
-# Author: Kyle Ruiz,
-#kruiz2015@my.fit.edu
-#Text_proto
+# Author: Kyle Ruiz, kruiz2015@my.fit.edu
+# TextProtocol class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/testprotocol_pb2.proto
+
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_testprotocol.html
 
 class TextProtocol:
 	#constants

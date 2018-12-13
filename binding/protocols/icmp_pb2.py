@@ -1,10 +1,10 @@
 # Author: Alex Winstead, awinstead2015@my.fit.edu
-#icmp class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/icmp.proto
+# Icmp class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/icmp.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_icmp.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_icmp.html
 
 class Icmp:
     #Class Constants

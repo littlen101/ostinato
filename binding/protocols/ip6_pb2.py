@@ -1,10 +1,10 @@
-#Author: Alex Winstead, awinstead2015@my.fit.edu
-#ip6 class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/ip6.proto
+# Author: Alex Winstead, awinstead2015@my.fit.edu
+# ip6 class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/ip6.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_ip6.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_ip6.html
 
 class Ip6:
     #Class Constants

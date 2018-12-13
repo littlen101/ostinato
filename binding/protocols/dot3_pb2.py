@@ -1,10 +1,10 @@
 # Author: Alex Winstead, awinstead2015@my.fit.edu
-#Dot3 class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/dot3.proto
+# Dot3 class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/dot3.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_dot3.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_dot3.html
 
 
 class Dot3:

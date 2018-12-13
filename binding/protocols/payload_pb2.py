@@ -1,6 +1,10 @@
-# Author: Kyle Ruiz,
-#kruiz2015@my.fit.edu
-#payload
+# Author: Kyle Ruiz, kruiz2015@my.fit.edu
+# Payload class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/payload_pb2.proto
+
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_payload.html
 
 class Payload:
 	#DataPatternMode 
@@ -13,5 +17,4 @@ class Payload:
 	def __init__(self, pattern_mode, pattern = 0):
 		self.pattern_mode = pattern_mode
 		self.pattern = int(pattern)
-		return
-		
+		return	

@@ -1,10 +1,10 @@
 # Author: Alex Winstead, awinstead2015@my.fit.edu
-#Gmp class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/gmp.proto
+# Gmp, IpAddress, GroupRecord class
+# orrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/gmp.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_gmp.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_gmp.html
 
 class IpAddress:
     def __init__(self, v4 = 0, v6_hi = 0, v6_lo = 0):

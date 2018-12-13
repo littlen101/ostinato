@@ -1,10 +1,10 @@
 # Author: Alex Winstead, awinstead2015@my.fit.edu
-#Arp class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/arp.proto
+# Arp class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/arp.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_arp.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_arp.html
 
 class Arp:
     #constants

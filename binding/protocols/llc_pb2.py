@@ -1,10 +1,10 @@
 # Author: Alex Winstead, awinstead2015@my.fit.edu
-#Llc class
-#corrisponding .proto file :
-#https://github.com/littlen101/ostinato/blob/master/common/llc.proto
+# Llc class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/llc.proto
 
-#Corrisponding API guide:
-#https://apiguide.ostinato.org/module_llc.html
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_llc.html
 
 class Llc:
     #Had to use type1 cause type is restricted pyhton name.

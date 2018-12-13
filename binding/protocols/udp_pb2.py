@@ -1,6 +1,10 @@
-# Author: Kyle Ruiz,
-#kruiz2015@my.fit.edu
-#udp_class
+# Author: Kyle Ruiz, kruiz2015@my.fit.edu
+# Udp class
+# corrisponding .proto file :
+# https://github.com/littlen101/ostinato/blob/master/common/udp_pb2.proto
+
+# Corrisponding API guide:
+# https://apiguide.ostinato.org/module_udp.html
 
 class Udp:
 	def __init__ (self, is_override_src_port = False, is_override_dst_port = False, is_override_totlen = False, is_override_cksum = False, src_port = 49152, dst_port = 49153, totlen = 0, cksum = 0):
