@@ -29,7 +29,7 @@ class Gmp:
                  is_override_checksum = False, checksum = 0,
                  group_address, group_mode = kFixed, group_count = 16,
                  group_prefix = 24, s_flag = False, qrv = 2, qqi = 125,
-                 sources, is_override_source_count = False, source_count = 0,
+                 is_override_source_count = False, source_count = 0,
                  group_records, is_override_group_record_count = False,
                  group_records = 0):
         self.type1 = int(type1)
@@ -45,7 +45,7 @@ class Gmp:
         self.s_flag = bool(s_flag)
         self.qrv = int(qrv)
         self.qqi = int(qqi)
-        self.qqi = List[IpAddress](sources)
+        self.sources = List[IpAddress](sources)
         self.is_override_source_count = bool(is_override_source_count)
         self.source_count = int(source_count)
         self.group_records = List[GroupRecord](group_records)
