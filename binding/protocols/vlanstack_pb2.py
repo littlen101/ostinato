@@ -1,4 +1,5 @@
 
 
 class VlanStack:
-	#empty
+    # Empty Class
+    pass
