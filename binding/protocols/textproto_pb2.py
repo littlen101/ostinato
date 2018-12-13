@@ -10,7 +10,7 @@ class TextProtocol:
 	kLf 
 	kCrLf
 	#Text Encoding (UTF-8)
-	TextProtocol.kUtf8
+	kUtf8
 	def __init__(self, port_num = 80, encoding = kUtf8, text = " ", eol = kLf):
 		self.port_num = int(port_num)
 		self.encoding = encoding
