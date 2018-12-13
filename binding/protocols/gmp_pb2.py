@@ -52,7 +52,7 @@ class Gmp:
     kBlockOld = 6
 
     #Had to use type1 cause type is restricted pyhton name.
-    def __init__(self, type1 = 0, is_override_rsvd_code = False,
+    def __init__(self, is_override_rsvd_code = False, type1 = 0,
                  rsvd_code = 0, max_response_time = 100,
                  is_override_checksum = False, checksum = 0,
                  group_address = [], group_mode = kFixed, group_count = 16,
