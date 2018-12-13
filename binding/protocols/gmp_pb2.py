@@ -6,32 +6,12 @@
 #Corrisponding API guide:
 #https://apiguide.ostinato.org/module_gmp.html
 
-
-class GroupRecord:
-        def __init__(self, group_address, type1 = kIsInclude, 
-                     sources, is_override_source_count = False,
-                     source_count = 0,aux_data = "",
-                     is_override_aux_data_length = False,
-                     aux_data_length = 0, 
-                     ):
-            self.type1 = RecordType(type1)
-            self.group_address = IpAddress(group_address)
-            self.sources = List[IpAddress](sources)
-            self.is_override_source_count = bool(is_override_source_count)
-            self.source_count = int(source_count)
-            self.aux_data = str(aux_data)
-            self.is_override_aux_data_length = bool(is_override_aux_data_length)
-            self.aux_data_length = int(aux_data_length)
-            return
-        
 class IpAddress:
     def __init__(self, v4 = 0, v6_hi = 0, v6_lo = 0):
         self.v4 = int(v4)
         self.v6_lo = int(v6_lo)
         self.v6_hi = int(v6_hi)
         return
-
-
 
 class Gmp:
     #Class Constants
@@ -51,7 +31,7 @@ class Gmp:
     kBlockOld = 6
 
     #Had to use type1 cause type is restricted pyhton name.
-    def __init__(self, is_override_rsvd_code = False, type1 = 0,
+    def __init__(self, is_override_rsvd_code = False, type = 0,
                  rsvd_code = 0, max_response_time = 100,
                  is_override_checksum = False, checksum = 0,
                  group_address = [], group_mode = kFixed, group_count = 16,
@@ -59,14 +39,14 @@ class Gmp:
                  is_override_source_count = False, source_count = 0,
                  sources = [], group_records = [], is_override_group_record_count = False,
                  group_record_count = 0):
-        self.type1 = int(type1)
+        self.type = int(type)
         self.is_override_rsvd_code = bool(is_override_rsvd_code)
         self.rsvd_code = int(rsvd_code)
         self.max_response_time = int(max_response_time)
         self.is_override_checksum = bool(is_override_checksum)
         self.checksum = int(checksum)
         self.group_address = IpAddress(group_address)
-        self.group_mode = GroupMode(group_mode)
+        self.group_mode = int(group_mode)
         self.group_count = int(group_count)
         self.group_prefix = int(group_prefix)
         self.s_flag = bool(s_flag)
@@ -80,21 +60,19 @@ class Gmp:
         self.group_record_count = int(group_record_count)
         return
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+class GroupRecord:
+    def __init__(self, type = Gmp.kIsInclude, group_address = IpAddress(),
+                     sources = [], is_override_source_count = False,
+                     source_count = 0,aux_data = "",
+                     is_override_aux_data_length = False,
+                     aux_data_length = 0, 
+                     ):
+        self.type = RecordType(type)
+        self.group_address = IpAddress(group_address)
+        self.sources = List[IpAddress](sources)
+        self.is_override_source_count = bool(is_override_source_count)
+        self.source_count = int(source_count)
+        self.aux_data = str(aux_data)
+        self.is_override_aux_data_length = bool(is_override_aux_data_length)
+        self.aux_data_length = int(aux_data_length)
+        return
