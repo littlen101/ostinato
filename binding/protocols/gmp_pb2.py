@@ -9,7 +9,7 @@
 
 class GroupRecord:
     class type:
-        def __init__(self, type1 = kIsInclude, group_address,
+        def __init__(self, group_address, type1 = kIsInclude, 
                      sources, is_override_source_count = False,
                      source_count = 0,aux_data = "",
                      is_override_aux_data_length = False,
