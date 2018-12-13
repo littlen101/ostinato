@@ -55,10 +55,10 @@ class Gmp:
     def __init__(self, type1 = 0, is_override_rsvd_code = False,
                  rsvd_code = 0, max_response_time = 100,
                  is_override_checksum = False, checksum = 0,
-                 group_address = IpAddress[], group_mode = kFixed, group_count = 16,
+                 group_address = [], group_mode = kFixed, group_count = 16,
                  group_prefix = 24, s_flag = False, qrv = 2, qqi = 125,
                  is_override_source_count = False, source_count = 0,
-                 sources = IpAddress[], group_records = [], is_override_group_record_count = False,
+                 sources = [], group_records = [], is_override_group_record_count = False,
                  group_record_count = 0):
         self.type1 = int(type1)
         self.is_override_rsvd_code = bool(is_override_rsvd_code)
