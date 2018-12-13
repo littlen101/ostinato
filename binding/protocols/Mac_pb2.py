@@ -16,6 +16,6 @@ class Mac:
 		self.dst_mac_step = int(dst_mac_step)
 		self.src_mac = int(src_mac)
 		self.src_mac_mode = src_mac_mode
-		self.src_mac_count = 16
-		self.src_mac_step = 1
+		self.src_mac_count = int(src_mac_count)
+		self.src_mac_step = int(src_mac_step)
 		return
