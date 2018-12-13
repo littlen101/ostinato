@@ -15,7 +15,7 @@ class Ip4:
 
     #should id be swithced?
     def __init__(self, is_override_ver = False, is_override_hdrlen = False,
-                 is_override_hdrlen = False, is_override_proto = False,
+                 is_override_totlen = False, is_override_proto = False,
                  is_override_cksum = False, ver_hdrlen = 69, tos = 0,
                  totlen = 0, id = 1234, flags = 0, frag_ofs = 0,
                  ttl = 127, proto = 0, cksum = 0, src_ip = 0, src_ip_mode = e_im_fixed,
