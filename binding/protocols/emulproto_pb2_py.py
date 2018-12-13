@@ -27,7 +27,7 @@ class Ip6Address:
             sumLo = 0
         if sumHi < 0:
             sumHi = 0
-        return __init__(sumHi, sumLo)
+        return Ip6Address(hi=sumHi, lo=sumLo)
     def __eq__(self,other):
         return self.hi == other.hi and self.lo == other.lo
 
