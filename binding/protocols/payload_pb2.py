@@ -10,7 +10,7 @@ class Payload:
 	e_dp_random = 3
 	
 		
-	def __init__(self, pattern = 0, pattern_mode):
+	def __init__(self, pattern_mode, pattern = 0):
 		self.pattern_mode = pattern_mode
 		self.pattern = int(pattern)
 		return
